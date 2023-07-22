@@ -9,7 +9,7 @@ $ catkin_make install
 #### Step 2: Clone catkin package
 ```
 $ cd ~/rosnode_pc-arduino_ws/src
-$ git clone https://github.com/kingdiaw/ROSpkg_pc-arduino.git
+$ git clone https://github.com/kingdiaw/rospkg_pc-arduino.git
 ```
 #### Step 3: Open a new terminal and run roscore
 ```$ roscore```
