@@ -13,9 +13,13 @@ $ git clone https://github.com/kingdiaw/rospkg_pc-arduino.git
 ```
 #### Step 3: Running roscore and rosserial
 Open a new terminal and run roscore
-```$ roscore```
+```
+$ roscore
+```
 Open another onew terminal and run following command:
-```$ rosrun rosserial_python serial_node.py /dev/ttyUSB0```
+```
+$ rosrun rosserial_python serial_node.py /dev/ttyUSB0
+```
 
 #### Step 4: Building a catkin workspace and sourcing the setup file
 Open a new terminal and run following commands:
