@@ -20,7 +20,6 @@ Open another onew terminal and run following command:
 ```
 $ rosrun rosserial_python serial_node.py /dev/ttyUSB0
 ```
-
 #### Step 4: Building a catkin workspace and sourcing the setup file
 Open a new terminal and run following commands:
 ```
@@ -37,5 +36,11 @@ $ catkin_make
 $ source devel/setup.bash
 $ rosrun  rospkg_pc-arduino subscriber_node.py
 ```
+
+#### Note: If you does not have ROS serial package yet, then do this:
+```
+$ sudo apt install ros-noetic-rosserial-arduino ros-noetic-rosserial-python ros-noetic-rosserial-server ros-noetic-rosserial-client
+```
+remark: check ros version, change it if you are using different version 
 
 
